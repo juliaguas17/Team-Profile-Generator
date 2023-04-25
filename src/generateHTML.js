@@ -52,7 +52,7 @@ const generateIntern = function (intern) {
         `;
     };
 
-//create HTML page
+// HTML
 generateHTML = (data) => {
     // card array
     pageArray = []; 
@@ -60,34 +60,27 @@ generateHTML = (data) => {
     for (let i = 0; i < data.length; i++) {
         const employee = data[i];
         const role = employee.getRole(); 
-
         // call manager function
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
             pageArray.push(managerCard);
         }
-
         // call engineer function
         if (role === 'Engineer') {
             const engineerCard = generateEngineer(employee);
             pageArray.push(engineerCard);
         }
-
         // call intern function 
         if (role === 'Intern') {
             const internCard = generateIntern(employee);
             pageArray.push(internCard);
         }
-        
     }
-
     // join strings 
     const employeeCards = pageArray.join('')
-
     // return to generated page
     const generateTeam = generateTeamPage(employeeCards); 
     return generateTeam;
-
 }
 
 // display HTML with employeeCards 
