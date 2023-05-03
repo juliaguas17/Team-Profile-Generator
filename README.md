@@ -14,4 +14,4 @@ Below are screenshot examples of running tests and an example HTML file of a sma
 <!--HTML example-->
 ![HTML example](assets/small_team.png)
 <!--Video walkthrough-->
-[Demo Video](assets/team_directory_walkthrough.mp4)
+[Demo Video - May require downloading due to file size](assets/team_directory_walkthrough.mp4)
