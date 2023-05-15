@@ -93,13 +93,15 @@ const generateTeamPage = function (employeeCards) {
         <body>
             <header>
                 <nav class="navbar" id="navbar">
-                    <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">My Team</span>
+                    <span class="navbar-brand mb-2 h2 w-100 text-center" id="navbar-text">My Team</span>
                 </nav>
             </header>
             <main>
                 <div class="container">
                     <div class="row justify-content-center" id="team-cards">
-                        ${employeeCards}
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            ${employeeCards}
+                        </div>
                     </div>
                 </div>
             </main>
