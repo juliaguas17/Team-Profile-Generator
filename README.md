@@ -15,3 +15,9 @@ Below are screenshot examples of running tests and an example HTML file of a sma
 ![HTML example](assets/small_team.png)
 <!--Video walkthrough-->
 [Demo Video - May require downloading due to file size](assets/team_directory_walkthrough.mp4)
+
+## References
+https://github.com/nicolewallace09/team-profile-generator
+https://gist.github.com/Amitabh-K/ae073eea3d5207efaddffde19b1618e8
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://getbootstrap.com/docs/5.3/components/card/
